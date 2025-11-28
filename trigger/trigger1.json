@@ -14,7 +14,7 @@
 		"type": "BlobEventsTrigger",
 		"typeProperties": {
 			"blobPathBeginsWith": "/containerdemo/blobs/",
-			"ignoreEmptyBlobs": true,
+			"ignoreEmptyBlobs": false,
 			"scope": "/subscriptions/cdf7ee3b-56f1-4a17-99fa-2d30169ee5dd/resourceGroups/demodata25112025/providers/Microsoft.Storage/storageAccounts/demostorage25112025",
 			"events": [
 				"Microsoft.Storage.BlobCreated"
