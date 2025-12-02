@@ -11,6 +11,9 @@
 		"AzureSqlDatabase1_password": {
 			"value": ""
 		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://demostorage25112025.dfs.core.windows.net/"
 		},
@@ -21,6 +24,15 @@
 			"value": "sqldatabasedemo"
 		},
 		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "admi"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "sqlserver261125.database.windows.net"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "sqldatabasedemo"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
 			"value": "admi"
 		}
 	}
