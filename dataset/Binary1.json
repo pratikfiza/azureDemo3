@@ -10,7 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "people-100.csv",
 				"fileSystem": "containerdemo"
 			}
 		}
