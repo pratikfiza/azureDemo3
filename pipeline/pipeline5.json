@@ -106,6 +106,12 @@
 				}
 			}
 		],
+		"parameters": {
+			"container_name_pipeline": {
+				"type": "string",
+				"defaultValue": "containerdemo"
+			}
+		},
 		"annotations": []
 	}
 }
