@@ -78,23 +78,12 @@
 									}
 								},
 								"sink": {
-									"type": "ParquetSink",
+									"type": "BinarySink",
 									"storeSettings": {
 										"type": "AzureBlobFSWriteSettings"
-									},
-									"formatSettings": {
-										"type": "ParquetWriteSettings"
 									}
 								},
-								"enableStaging": false,
-								"translator": {
-									"type": "TabularTranslator",
-									"typeConversion": true,
-									"typeConversionSettings": {
-										"allowDataTruncation": true,
-										"treatBooleanAsNumber": false
-									}
-								}
+								"enableStaging": false
 							},
 							"inputs": [
 								{
@@ -104,7 +93,7 @@
 							],
 							"outputs": [
 								{
-									"referenceName": "Parquet1",
+									"referenceName": "Binary3",
 									"type": "DatasetReference"
 								}
 							]
